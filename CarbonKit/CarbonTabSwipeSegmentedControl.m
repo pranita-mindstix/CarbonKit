@@ -123,6 +123,10 @@
     }
 }
 
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+    return true;
+}
+
 - (void)setTabExtraWidth:(CGFloat)tabExtraWidth {
     _tabExtraWidth = tabExtraWidth;
 
